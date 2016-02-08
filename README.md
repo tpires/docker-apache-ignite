@@ -1,17 +1,17 @@
 # docker-apache-ignite
 Lean (310MB) Apache Ignite docker image powered by Alpine.
 
-[![Docker Repository on Quay.io](https://quay.io/repository/pires/docker-apache-ignite/status "Docker Repository on Quay.io")](https://quay.io/repository/pires/docker-apache-ignite)
+[![Docker Repository on Quay](https://quay.io/repository/tpires/apache-ignite/status "Docker Repository on Quay")](https://quay.io/repository/tpires/apache-ignite)
 
 ## Software
 
-* Apache Ignite 1.3.0
+* Apache Ignite 1.4.0
 * Oracle JRE 8 Update 60
 
 ## Run
 
 ```
-docker run --name ignite -d --net=host quay.io/pires/docker-apache-ignite:1.3.0
+docker run --name ignite -d --net=host quay.io/pires/docker-apache-ignite:1.4.0
 ```
 
 Now, run:
@@ -23,7 +23,7 @@ Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=256m; sup
 [11:32:21]  _/ // (7 7    // /  / / / _/
 [11:32:21] /___/\___/_/|_/___/ /_/ /___/
 [11:32:21]
-[11:32:21] ver. 1.3.0-incubating#20150710-sha1:2ade6d00
+[11:32:21] ver. 1.4.0#20150710-sha1:2ade6d00
 [11:32:21] 2015 Copyright(C) Apache Software Foundation
 [11:32:21]
 [11:32:21] Ignite documentation: http://ignite.incubator.apache.org
