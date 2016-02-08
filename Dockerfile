@@ -1,7 +1,7 @@
 FROM quay.io/pires/docker-jre:8u60
 
-ENV IGNITE_VERSION 1.3.0
-ENV IGNITE_PATH apache-ignite-fabric-$IGNITE_VERSION-incubating-bin
+ENV IGNITE_VERSION 1.4.0
+ENV IGNITE_PATH apache-ignite-fabric-$IGNITE_VERSION-bin
 
 # Install Apache Ignite
 RUN apk update; apk upgrade; apk add bash; \
