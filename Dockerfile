@@ -1,6 +1,6 @@
 FROM quay.io/pires/docker-jre:8u60
 
-ENV IGNITE_VERSION 1.4.0
+ENV IGNITE_VERSION 1.5.0.final
 ENV IGNITE_PATH apache-ignite-fabric-$IGNITE_VERSION-bin
 
 # Install Apache Ignite
